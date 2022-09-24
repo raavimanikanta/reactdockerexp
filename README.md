@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# About The Project 
+  In this project I have used the API link to fetch the data and shown the data in the tabular form .The data is related to person's [id, name, username, city, suite, zip code].
+
+  Used the React-router to make the application as a single-page- application,it helps in navigating from one component to another component with in the application without getting the page refreshed. 
+
+  And I also created a form when user fills the details as per the form ,after giving the respective details, when the user clicks the submit button. The entered details will be shown in the separate page with the back button which is used to navigate back to the form.
+
+  Added The Dockerfile to build the image and created the container to make the application containerised 
+
+## Fetched Data From The API Link And Shown Details in A Tabular Form 
+
+![photo](./userdata.JPG)
+
+## FORM 
+
+![photo](./formpic.JPG)
