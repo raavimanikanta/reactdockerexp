@@ -78,6 +78,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
   Added The Dockerfile to build the image and created the container to make the application containerised 
 
+  ## Use the below command to create the Dockerimage :
+     
+     docker build -t <image_name> . 
+
+  ## use the below command to create the DockerContainer :
+     
+     docker run -d -p 3000:3000 --name <container_name>
+     <iamge_name>     
+
+
 ## Fetched Data From The API Link And Shown Details in A Tabular Form 
 
 ![photo](./userdata.JPG)
